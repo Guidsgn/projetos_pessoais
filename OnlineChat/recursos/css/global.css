@@ -1,0 +1,55 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Ubuntu+Sans:ital,wght@0,100..800;1,100..800&display=swap'); /* Importando Fontes do Projeto */
+
+/* Global */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    list-style: none;
+    text-decoration: none;
+}
+
+/* Variáveis */
+
+:root {
+
+    /* Cores */
+
+    --font-color: #fdfdfd;
+    --d-font-color: #c4c4c4;
+
+    --gray-color-1: #252525;
+    --gray-color-2: #151515;
+    --gray-color-3: #050505;
+
+    --bg-color-1: #3b3290;
+    --bg-color-2: #1f154a;
+    --bg-color-3: #100627;
+
+    /* Fontes */
+
+    --font-p: "Ubuntu Sans", sans-serif;
+    --font-r: "Spectral", serif;
+
+    /* PX to REM */
+
+    font-size: 62.5%;
+
+}
+
+/* Gerais */
+
+body {
+    background: linear-gradient(145deg, var(--bg-color-2), var(--bg-color-3));
+}
+
+.interface {
+    width: 100%;
+    height: 100dvh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
